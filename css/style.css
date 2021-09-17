@@ -17,14 +17,30 @@
 }
 
 /* debug */
-.clearfix {
+/* .clearfix {
     background-color:dodgerblue;
-}
+} */
 
 /* header */
 #logobox {
-    background-color: palevioletred;
-    height: 200px;
+    margin-bottom: 40px;
+    /* debug */
+    /* background-color: palevioletred; */
+}
+
+#logobox img {
+    border-right: solid 1px grey;
+    padding-right: 40px;
+}
+
+#navbox li {
+    font-size: 20px;
+    margin-right: 20px;
+    display: inline-block;
+}
+
+#navbox a {
+    text-decoration-line: none;
 }
 
 /* jumbo */
