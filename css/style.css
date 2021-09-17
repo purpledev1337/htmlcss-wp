@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#logobox {
+    background-color: palevioletred;
+    height: 200px;
+}
+
+#jumbotron {
+    background-color: darkkhaki;
+    height: 500px;
+    margin: 2% 0;
+}
+
+#contentbox {
+    background-color:dodgerblue;
+    margin-bottom: 1%;
+}
+
+#contentbox::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.title {
+    background-color: lightskyblue;
+    height: 150px;
+}
+
+.content {
+    background-color: lightskyblue;
+    height: 500px;
+    float: left;
+}
+
+#contentbox aside {
+    width: 20%;
+    margin: 1% 0;
+}
+
+.center {
+    width: 56%;
+    margin: 1% 2%;
+}
+
+#credits {
+    background-color: darkmagenta;
+    height: 100px;
+}
