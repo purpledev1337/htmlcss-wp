@@ -79,9 +79,7 @@ body {
 /* main */
 .title {
     /* debug */
-    /* background-color: lightskyblue;
-    height: 150px; */
-    margin-bottom: 2%;
+    margin: 40px 0;
 }
 
 .title h1 {
@@ -91,8 +89,6 @@ body {
 }
 
 .content {
-    /* background-color: lightskyblue; */
-    /* height: 500px; */
     float: left;
 }
 
@@ -103,7 +99,13 @@ body {
     opacity: 0.8;
 }
 
+.content h4 {
+    color: black;
+    margin: 20px 0;
+}
+
 .shadow {
+    height: 250px;
     background-color: black;
     border-radius: 20px;
 }
@@ -120,8 +122,6 @@ aside.content {
 /* footer */
 #credits {
     color: black;
-    /* background-color: darkmagenta; */
-    /* height: 100px; */
     margin: 2% 0;
     text-align: center;
 }
