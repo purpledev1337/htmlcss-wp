@@ -6,6 +6,8 @@
 }
 
 body {
+    font-size: 20px;
+    color: rgb(185, 185, 185);
     font-family: ‘Montserrat’, sans-serif;
 }
 
@@ -33,7 +35,7 @@ body {
 }
 
 #logobox img {
-    border-right: solid 1px grey;
+    border-right: solid 1px;
     padding-right: 40px;
 }
 
@@ -44,8 +46,8 @@ body {
 #navbox li {
     font-variant-caps: all-small-caps;
     font-weight: 100;
-    font-size: 20px;
-    color: gray;
+    /* font-size: 20px; */
+    /* color: gray; */
     margin-right: 20px;
     display: inline-block;
 }
@@ -67,7 +69,7 @@ body {
 }
 
 #jumbotext {
-    font-size: 20px;
+    /* font-size: 20px; */
     color: white;
     padding: 25% 50% 5% 5%;
     background-color: rgba(0, 0, 0, 0.4);
@@ -76,8 +78,14 @@ body {
 
 /* main */
 .title {
-    background-color: lightskyblue;
-    height: 150px;
+    /* debug */
+    /* background-color: lightskyblue;
+    height: 150px; */
+}
+
+.title h1 {
+    font-weight: 700;
+    font-size: 50px;
 }
 
 .content {
@@ -88,17 +96,22 @@ body {
 
 aside.content {
     width: 20%;
-    margin: 1% 0;
 }
 
 .center {
     width: 56%;
-    margin: 1% 2%;
+    margin: 0 2%;
 }
 
 /* footer */
 #credits {
-    background-color: darkmagenta;
-    height: 100px;
-    margin-top: 1%;
+    color: black;
+    /* background-color: darkmagenta; */
+    /* height: 100px; */
+    margin: 2% 0;
+    text-align: center;
+}
+
+#credits span {
+    color: red;
 }
