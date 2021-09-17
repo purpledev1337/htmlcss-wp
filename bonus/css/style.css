@@ -31,8 +31,22 @@ body {
     padding-right: 40px;
 }
 
-#navbox {
-    color:inherit
+#bonus {
+    float: right;
+    margin-top: 20px;
+}
+#bonus li {
+    margin-top: 10px;
+    list-style-type:none;
+}
+#bonus img {
+    width: 150px;
+    border: none;
+}
+
+#bonuslink {
+    font-size: 45px;
+    font-weight: 700;
 }
 
 #navbox li {
@@ -43,9 +57,13 @@ body {
     display: inline-block;
 }
 
-#navbox a, #navbox a:hover, #navbox a:visited, #navbox a:active {
+#navbox a, #navbox a:visited, #navbox a:active {
     text-decoration: none;
     color: inherit;
+}
+
+#navbox a:hover {
+    border-bottom: black 5px dotted;
 }
 
 /* jumbo */
@@ -55,6 +73,8 @@ body {
     background-position: center;
     border-radius: 20px;
     margin: 2% 0;
+    display: block;
+    text-decoration: none;
 }
 
 #jumbotext {
@@ -64,6 +84,10 @@ body {
     padding: 25% 50% 5% 5%;
     background-color: rgba(0, 0, 0, 0.2);
     border-radius: 20px;
+}
+
+#jumbotext:hover {
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 #jumbotext h1 {
