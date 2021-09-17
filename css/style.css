@@ -1,3 +1,4 @@
+/* general */
 * {
     margin: 0;
     padding: 0;
@@ -9,28 +10,31 @@
     margin: 0 auto;
 }
 
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* debug */
+.clearfix {
+    background-color:dodgerblue;
+}
+
+/* header */
 #logobox {
     background-color: palevioletred;
     height: 200px;
 }
 
+/* jumbo */
 #jumbotron {
     background-color: darkkhaki;
     height: 500px;
     margin: 2% 0;
 }
 
-#contentbox {
-    background-color:dodgerblue;
-    margin-bottom: 1%;
-}
-
-#contentbox::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
+/* main */
 .title {
     background-color: lightskyblue;
     height: 150px;
@@ -42,7 +46,7 @@
     float: left;
 }
 
-#contentbox aside {
+aside.content {
     width: 20%;
     margin: 1% 0;
 }
@@ -52,7 +56,9 @@
     margin: 1% 2%;
 }
 
+/* footer */
 #credits {
     background-color: darkmagenta;
     height: 100px;
+    margin-top: 1%;
 }
