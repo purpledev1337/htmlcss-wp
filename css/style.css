@@ -84,6 +84,7 @@ body {
 
 .content {
     float: left;
+    margin-bottom: 20px;
 }
 
 .content img {
