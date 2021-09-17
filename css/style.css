@@ -57,9 +57,21 @@ body {
 
 /* jumbo */
 #jumbotron {
-    background-color: darkkhaki;
-    height: 500px;
+    background-image: url("../img/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
     margin: 2% 0;
+    /* debug */
+    /* height: 500px; */
+}
+
+#jumbotext {
+    font-size: 20px;
+    color: white;
+    padding: 25% 50% 5% 5%;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
 }
 
 /* main */
